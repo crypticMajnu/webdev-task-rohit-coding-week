@@ -1,0 +1,48 @@
+header {
+    border-radius: 0px 0px 0px 0px;
+    height: 120px;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+}
+
+.separator {
+    height: 10px;
+    width: 75%;
+    background-color: #4158D0;
+    background-image: linear-gradient(92deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-radius: 15px;
+    margin: auto;
+}
+
+.box {
+    margin: 20px;
+    width: 30%;
+    border-radius: 15px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(32deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+h5 {
+    width: 100%;
+}
+
+.products {
+    display: flex;
+}
+
+.container {
+    align-content: center;
+}
+
+#products {
+    display: flex;
+}

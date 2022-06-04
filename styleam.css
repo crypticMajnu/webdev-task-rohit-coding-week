@@ -1,0 +1,97 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    text-align: center;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.whatev {
+    width: 50%;
+    float: left;
+}
+
+.pg {
+    height: 100vh;
+}
+
+svg.start {
+    overflow: visible;
+    position: fixed;
+    top: 20%;
+    left: 60%;
+}
+
+#head {
+    /* opacity: 0%; */
+    animation: head 350ms cubic-bezier(1, 0.01, 0.78, 0.74) infinite alternate;
+}
+
+#face1,
+#eyesclosed1,
+#stareyedface,
+#smilegamer,
+#coderglas,
+#plus {
+    opacity: 0%;
+    animation: face 350ms cubic-bezier(1, 0.01, 0.78, 0.74) 50ms infinite alternate;
+}
+
+#downward_arrow {
+    animation: face 350ms cubic-bezier(1, 0.01, 0.78, 0.74) 50ms infinite alternate;
+}
+
+#headphone1,
+#artisthat,
+#gamingheadphones {
+    opacity: 0%;
+    animation: face 350ms cubic-bezier(1, 0.01, 0.78, 0.74) 60ms infinite alternate;
+}
+
+@keyframes head {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(20%);
+    }
+}
+
+@keyframes face {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(15%);
+    }
+}
+
+
+/* fade in animation */
+
+@keyframes faden {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+
+/* fade out animation */
+
+@keyframes fadeo {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
